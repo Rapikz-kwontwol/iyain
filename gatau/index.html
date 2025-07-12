@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rapikuzu always lazy</title>
+    <title>Rapikuzu's Profile</title>
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/0d/71/2a/0d712a0b6805c0b44386339048bdfce5.jpg?format=png&name=900x900">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -11,17 +11,14 @@
         ::-webkit-scrollbar {
             width: 8px;
         }
-
         ::-webkit-scrollbar-track {
             background: #f1f1f1;
             border-radius: 10px;
         }
-
         ::-webkit-scrollbar-thumb {
             background: #888;
             border-radius: 10px;
         }
-
         ::-webkit-scrollbar-thumb:hover {
             background: #555;
         }
@@ -33,66 +30,61 @@
         <nav class="container mx-auto flex justify-between items-center">
             <a href="#" class="text-2xl font-extrabold text-indigo-600">Rapikuzu</a>
             <ul class="flex space-x-6">
-                <li><a href="#about" class="text-gray-700 hover:text-indigo-600 transition duration-300">About</a></li>
-                <li><a href="#social" class="text-gray-700 hover:text-indigo-600 transition duration-300">Social Media</a></li>
+                <li><a href="#profile" class="text-gray-700 hover:text-indigo-600 transition duration-300">Profile</a></li>
+                <li><a href="#portfolio" class="text-gray-700 hover:text-indigo-600 transition duration-300">Portfolio</a></li>
                 <li><a href="#comments" class="text-gray-700 hover:text-indigo-600 transition duration-300">Comments</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container mx-auto p-4 flex-grow">
-        <section id="hero" class="bg-white shadow-lg rounded-xl p-8 mb-8 transform hover:scale-105 transition duration-300 ease-in-out">
-            <div class="overflow-hidden rounded-lg">
-                <img src="https://media.tenor.com/VPW95GiH_BwAAAAM/blue-archive-ni-ga.gif" alt="Hero Image" class="w-full h-auto object-cover rounded-lg">
+        
+        <section id="profile" class="bg-white shadow-lg rounded-xl p-8 mb-8 transform hover:scale-105 transition duration-300 ease-in-out relative overflow-hidden">
+            <div class="relative w-full h-40 md:h-52 rounded-xl overflow-hidden mb-6 -mt-8 -mx-8">
+                <img src="https://media.tenor.com/VPW95GiH_BwAAAAM/blue-archive-ni-ga.gif" alt="Profile Banner" class="w-full h-full object-cover">
             </div>
-        </section>
 
-        <section id="about" class="bg-white shadow-lg rounded-xl p-8 mb-8 transform hover:scale-105 transition duration-300 ease-in-out">
-            <h2 class="text-3xl font-extrabold text-indigo-700 border-b-4 border-indigo-300 pb-4 mb-6">About Me</h2>
+            <div class="flex items-center -mt-20 sm:-mt-16 mb-4">
+                <img src="https://raw.githubusercontent.com/upload-file-lab/fileupload6/main/uploads/1752289966842.jpeg?format=png&name=900x900" alt="Profile Picture" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full border-4 border-white shadow-md z-10">
+                <div class="ml-6 mt-16 sm:mt-12">
+                    <h1 class="text-3xl font-extrabold text-indigo-700">Afiq/Qifa</h1>
+                    <p class="text-gray-500 text-md">@Rapikuzu</p>
+                </div>
+            </div>
+
             <div class="text-lg leading-relaxed space-y-3">
                 <p>Hi, my name is <strong class="text-indigo-600">Afiq/Qifa</strong>.</p>
                 <p>I'm from <strong class="text-indigo-600">Indonesia</strong>.</p>
                 <p>I'm often lazy, but always <strong class="text-indigo-600">learning</strong>!</p>
                 <p>My date of birth is April 18, 2009.</p>
             </div>
+            
+            <div class="mt-6">
+                <h3 class="text-xl font-bold text-indigo-600 mb-3">Connect with Me</h3>
+                <ul class="flex flex-wrap gap-4 justify-start">
+                    <li><a href="https://t.me/AfiqQifa" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" class="rounded-md"></a></li>
+                    <li><a href="https://whatsapp.com/channel/0029VaoJb11LikgEpNpBty0e" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel" class="rounded-md"></a></li>
+                    <li><a href="https://www.instagram.com/rapikuzu_desu/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" class="rounded-md"></a></li>
+                    <li><a href="https://github.com/Rapikz-kwontwol" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" class="rounded-md"></a></li>
+                </ul>
+            </div>
         </section>
-
-        <section id="social" class="bg-white shadow-lg rounded-xl p-8 mb-8 transform hover:scale-105 transition duration-300 ease-in-out">
-            <h2 class="text-3xl font-extrabold text-indigo-700 border-b-4 border-indigo-300 pb-4 mb-6">Social media</h2>
-            <p class="text-lg mb-4">My social media:</p>
-            <ul class="flex flex-wrap gap-4 justify-center md:justify-start">
-                <li>
-                    <a href="https://t.me/AfiqQifa" target="_blank" rel="noopener noreferrer" class="block transform hover:scale-110 transition duration-300">
-                        <img src="https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" class="rounded-md">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://whatsapp.com/channel/0029VaoJb11LikgEpNpBty0e" target="_blank" rel="noopener noreferrer" class="block transform hover:scale-110 transition duration-300">
-                        <img src="https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" class="rounded-md">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/rapikuzu_desu/" target="_blank" rel="noopener noreferrer" class="block transform hover:scale-110 transition duration-300">
-                        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" class="rounded-md">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://youtube.com/" target="_blank" rel="noopener noreferrer" class="block transform hover:scale-110 transition duration-300">
-                        <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" class="rounded-md">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/Rapikz-kwontwol" target="_blank" rel="noopener noreferrer" class="block transform hover:scale-110 transition duration-300">
-                        <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" class="rounded-md">
-                    </a>
-                </li>
-            </ul>
+        
+        <section id="portfolio" class="bg-white shadow-lg rounded-xl p-8 mb-8 transform hover:scale-105 transition duration-300 ease-in-out">
+            <h2 class="text-3xl font-extrabold text-indigo-700 border-b-4 border-indigo-300 pb-4 mb-6">My Project</h2>
+            <div class="text-lg leading-relaxed space-y-3">
+                <p>Rest API: <a href="https://api.rapikzyeah.biz.id/" class="text-indigo-600 hover:underline">api.rapikzyeah.biz.id/</a></p>
+                <p>File uploader: <a href="https://www.aplotpelrapikz.my.id/" class="text-indigo-600 hover:underline">www.aplotpelrapikz.my.id/</a></p>
+                <p>Meme generator: <a href="https://smeme.rapikzyeah.biz.id/" class="text-indigo-600 hover:underline">smeme.rapikzyeah.biz.id/</a></p>
+                <p>Bratvid generator: <a href="https://bratvidgenerator.netlify.app/" class="text-indigo-600 hover:underline">bratvidgenerator.netlify.app/</a></p>
+                <p>Web apps (Idk): <a href="https://apakah.vercel.app" class="text-indigo-600 hover:underline">apakah.vercel.app</a> and <a href="https://seberapa-persen.vercel.app/" class="text-indigo-600 hover:underline">seberapa-persen.vercel.app/</a></p>
+                <p>WhatsApp Bot: <strong class="text-gray-500">Private</strong></p>
+            </div>
         </section>
 
         <section id="comments" class="bg-white shadow-lg rounded-xl p-8 mb-8 transform hover:scale-105 transition duration-300 ease-in-out">
             <h2 class="text-3xl font-extrabold text-indigo-700 border-b-4 border-indigo-300 pb-4 mb-6">Leave a Comment</h2>
-            <iframe src="https://whispa.sh/@Rapikuzu" width="100%" height="600" scrolling="yes"
-                frameborder="0" allowfullscreen class="rounded-lg shadow-inner"></iframe>
+            <iframe src="https://whispa.sh/@Rapikuzu" width="100%" height="600" scrolling="yes" frameborder="0" allowfullscreen class="rounded-lg shadow-inner"></iframe>
         </section>
 
         <div class="flex justify-center p-4">
